@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.admin-panel{
+	width: 100%;
+	height: auto;
+	padding: 0;
+	color: #333;
+	background: #fff;
+	margin-bottom: 400px;
+	z-index: 10;
+	position: relative;
+}
+.admin-panel-btn{
+	width: 100%;
+	padding: 8rem 0;
+	
+	/*margin: 0 auto;*/
+}
+.admin-panel-btn .btn{
+	background-color: #333;
+	color: #fff;
+	width: 150px;
+	line-height: 40px;
+	margin-right: 4rem;
+}
+.admin-panel-btn .btn:hover{
+	background-color: #e1be64;
+    color: #fff;
+    outline: none;
+    border: 1px solid #e1be64;
+}

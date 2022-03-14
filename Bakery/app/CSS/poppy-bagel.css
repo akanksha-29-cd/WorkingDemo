@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img-gallery--big-img{
+	margin-bottom: 1.5rem;
+}
+.img-gallery--small-img{
+	display: flex;
+	flex-direction: row;
+}
+.img-gallery--small-img a{
+	width: 33.33%;
+	margin-right: 1rem;
+}
+.img-gallery--small-img a:nth-child(3){
+		margin-right: 0;
+}
+.product-details-page-h1{
+	
+}
